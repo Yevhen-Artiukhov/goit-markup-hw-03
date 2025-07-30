@@ -91,7 +91,7 @@ a
 .contacts-list {
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 40px;
 }
 
 .contacts-link {
@@ -239,6 +239,13 @@ a
     box-sizing: border-box;
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .member-info {
     display: flex;
     flex-direction: column;
@@ -377,6 +384,8 @@ display: flex;
     font-size: 36px;
     line-height: 1.11;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
