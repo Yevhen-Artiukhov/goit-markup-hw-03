@@ -417,12 +417,12 @@ a
     font-size: 16px;
     line-height: 1.11;
     text-decoration: none;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
