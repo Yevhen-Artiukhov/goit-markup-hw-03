@@ -6,7 +6,7 @@ body
     background-color: #fff;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -177,6 +177,8 @@ a
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    
 }
 
 .visually-hidden {
@@ -191,16 +193,16 @@ a
     border: 0;
 }
 
+.section-foundation {
+    padding: 120px 0;
+}
+
 .section-two-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.section-foundation {
-    padding: 120px 0;
 }
 
 .container-foundation {
@@ -228,7 +230,6 @@ a
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 8px;
 }
 
 /*section-three*/
@@ -259,13 +260,14 @@ a
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .member-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 32px;
+    padding: 32px 0;
 }
 
 .section-three-title {
@@ -295,6 +297,7 @@ a
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #fff;
+    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -306,6 +309,7 @@ a
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
+    text-align: center;
 }
 
 /*section-four*/
@@ -326,6 +330,12 @@ a
     height: 1000px;
 }
 
+.section-four-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .section-four-title {
     font-weight: 700;
     font-size: 36px;
@@ -334,11 +344,11 @@ a
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-grid {
-display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
     list-style: none;
@@ -359,9 +369,8 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
+    
 }
 
 .section-four-text {
@@ -371,8 +380,8 @@ display: flex;
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
-    padding-left: 16px;
-    padding-bottom: 32px;
+    
+    
 }
 
 /*footer*/
@@ -405,6 +414,7 @@ display: flex;
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
