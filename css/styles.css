@@ -400,18 +400,6 @@ a
     padding: 100px 0;
 }
 
-.footer-container {
-    width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
